@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* AliceBlue */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff69b4; /* HotPink */
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: rgb(26, 82, 214);
+    border: 2px solid #ff1493; /* DeepPink */
+    display: block; /* Remove extra space below canvas */
+}
